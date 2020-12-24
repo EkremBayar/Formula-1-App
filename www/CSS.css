@@ -1,0 +1,29 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: helvatica;
+    font-weight: 500;
+    line-height: 1.1;
+    color: red;
+}
+
+.f1--m {
+    font-family: F1;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: seagreen;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.skin-green .sidebar-menu>li.active>a {
+    border-left-color: goldenrod;
+}
+
+
+/* This is a single-line comment */
+
