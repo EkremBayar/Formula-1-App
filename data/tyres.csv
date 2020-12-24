@@ -1,0 +1,913 @@
+"","Driver","GP","Tyres","From","To","X.Laps"
+"1","Valtteri Bottas","Austria","Soft Used",1,26,26
+"2","Valtteri Bottas","Austria","Hard New",27,56,30
+"3","Valtteri Bottas","Austria","Hard New",57,71,15
+"4","Charles Leclerc","Austria","Soft Used",1,26,26
+"5","Charles Leclerc","Austria","Hard New",27,51,25
+"6","Charles Leclerc","Austria","Medium New",52,56,5
+"7","Charles Leclerc","Austria","Medium New",57,71,15
+"8","Lando Norris","Austria","Soft Used",1,26,26
+"9","Lando Norris","Austria","Hard New",27,51,25
+"10","Lando Norris","Austria","Medium New",52,56,5
+"11","Lando Norris","Austria","Medium New",57,71,15
+"12","Lewis Hamilton","Austria","Soft Used",1,26,26
+"13","Lewis Hamilton","Austria","Hard New",27,56,30
+"14","Lewis Hamilton","Austria","Hard New",57,71,15
+"15","Carlos Sainz","Austria","Soft Used",1,26,26
+"16","Carlos Sainz","Austria","Medium New",53,56,4
+"17","Carlos Sainz","Austria","Medium New",57,71,15
+"18","Sergio Perez","Austria","Soft Used",1,26,26
+"19","Sergio Perez","Austria","Hard New",27,56,30
+"20","Sergio Perez","Austria","Medium New",57,71,15
+"21","Pierre Gasly","Austria","Medium New",1,26,26
+"22","Pierre Gasly","Austria","Hard New",27,56,30
+"23","Pierre Gasly","Austria","Hard New",57,71,15
+"24","Esteban Ocon","Austria","Medium New",1,26,26
+"25","Esteban Ocon","Austria","Hard New",27,56,30
+"26","Antonio Giovinazzi","Austria","Medium New",1,25,25
+"27","Antonio Giovinazzi","Austria","Hard New",26,55,30
+"28","Antonio Giovinazzi","Austria","Soft New",56,57,2
+"29","Antonio Giovinazzi","Austria","Soft Used",58,71,14
+"30","Sebastian Vettel","Austria","Medium New",1,26,26
+"31","Sebastian Vettel","Austria","Hard New",27,51,25
+"32","Sebastian Vettel","Austria","Soft New",52,56,5
+"33","Sebastian Vettel","Austria","Soft Used",57,71,15
+"34","Nicholas Latifi","Austria","Medium New",1,26,26
+"35","Nicholas Latifi","Austria","Soft New",52,56,5
+"36","Daniil Kvyat","Austria","Medium New",1,26,26
+"37","Daniil Kvyat","Austria","Hard New",27,51,25
+"38","Daniil Kvyat","Austria","Soft New",52,56,5
+"39","Daniil Kvyat","Austria","Soft New",57,69,13
+"40","Alexander Albon","Austria","Soft Used",1,26,26
+"41","Alexander Albon","Austria","Hard New",27,51,25
+"42","Alexander Albon","Austria","Soft Used",52,56,5
+"43","Alexander Albon","Austria","Soft Used",57,67,11
+"44","Kimi Räikkönen","Austria","Medium New",1,24,24
+"45","Kimi Räikkönen","Austria","Hard New",25,51,27
+"46","Kimi Räikkönen","Austria","Soft Used",52,53,2
+"47","George Russell","Austria","Hard New",26,49,24
+"48","Romain Grosjean","Austria","Medium New",1,20,20
+"49","Romain Grosjean","Austria","Hard New",21,49,29
+"50","Kevin Magnussen","Austria","Medium New",1,24,24
+"51","Lance Stroll","Austria","Soft Used",1,20,20
+"52","Daniel Ricciardo","Austria","Soft Used",1,17,17
+"53","Nicholas Latifi","Austria","Soft New",57,71,15
+"54","Carlos Sainz","Austria","Hard New",27,52,26
+"55","Nicholas Latifi","Austria","Hard New",27,51,25
+"56","George Russell","Austria","Medium New",1,25,25
+"57","Max Verstappen","Austria","Medium Used",1,11,11
+"58","Lewis Hamilton","Styria","Soft New",1,27,27
+"59","Lewis Hamilton","Styria","Medium New",28,71,44
+"60","Valtteri Bottas","Styria","Soft New",1,34,34
+"61","Max Verstappen","Styria","Soft New",1,24,24
+"62","Max Verstappen","Styria","Medium New",25,68,44
+"63","Max Verstappen","Styria","Soft New",69,71,3
+"64","Alexander Albon","Styria","Soft New",1,35,35
+"65","Alexander Albon","Styria","Medium New",36,71,36
+"66","Lando Norris","Styria","Soft New",1,39,39
+"67","Lando Norris","Styria","Medium New",40,71,32
+"68","Sergio Perez","Styria","Soft New",1,38,38
+"69","Sergio Perez","Styria","Medium New",39,71,33
+"70","Lance Stroll","Styria","Soft New",1,33,33
+"71","Lance Stroll","Styria","Medium New",34,71,38
+"72","Daniel Ricciardo","Styria","Medium New",1,37,37
+"73","Daniel Ricciardo","Styria","Soft New",38,71,34
+"74","Carlos Sainz","Styria","Soft New",1,32,32
+"75","Daniil Kvyat","Styria","Medium New",1,36,36
+"76","Daniil Kvyat","Styria","Hard New",37,70,34
+"77","Carlos Sainz","Styria","Medium New",33,66,34
+"78","Carlos Sainz","Styria","Soft New",67,70,4
+"79","Kimi Räikkönen","Styria","Medium New",1,44,44
+"80","Kimi Räikkönen","Styria","Soft New",45,70,26
+"81","Kevin Magnussen","Styria","Soft New",1,31,31
+"82","Kevin Magnussen","Styria","Medium New",32,70,39
+"83","Romain Grosjean","Styria","Soft New",1,37,37
+"84","Romain Grosjean","Styria","Medium New",38,70,33
+"85","Antonio Giovinazzi","Styria","Medium New",1,39,39
+"86","Antonio Giovinazzi","Styria","Soft New",40,70,31
+"87","Pierre Gasly","Styria","Soft New",1,24,24
+"88","Pierre Gasly","Styria","Hard New",25,49,25
+"89","Pierre Gasly","Styria","Soft New",50,70,21
+"90","George Russell","Styria","Soft New",1,34,34
+"91","George Russell","Styria","Medium New",35,69,35
+"92","Nicholas Latifi","Styria","Medium New",1,32,32
+"93","Nicholas Latifi","Styria","Soft New",33,69,37
+"94","Charles Leclerc","Styria","Soft New",1,1,1
+"95","Charles Leclerc","Styria","Hard New",2,4,3
+"96","Sebastian Vettel","Styria","Medium New",1,1,1
+"97","Valtteri Bottas","Styria","Medium New",35,71,37
+"98","Esteban Ocon","Styria","Soft New",1,25,25
+"99","Esteban Ocon","Austria","Hard New",57,71,15
+"100","Lewis Hamilton","Hungary","Intermediate New",1,3,3
+"101","Lewis Hamilton","Hungary","Medium New",4,37,34
+"102","Lewis Hamilton","Hungary","Medium Used",38,66,29
+"103","Lewis Hamilton","Hungary","Soft Used",67,70,4
+"104","Max Verstappen","Hungary","Intermediate New",1,4,4
+"105","Max Verstappen","Hungary","Medium New",5,36,32
+"106","Max Verstappen","Hungary","Hard New",37,70,34
+"107","Valtteri Bottas","Hungary","Intermediate New",1,2,2
+"108","Valtteri Bottas","Hungary","Medium New",3,33,31
+"109","Valtteri Bottas","Hungary","Medium Used",34,49,16
+"110","Valtteri Bottas","Hungary","Hard New",50,70,21
+"111","Lance Stroll","Hungary","Intermediate New",1,3,3
+"112","Lance Stroll","Hungary","Medium Used",4,35,32
+"113","Lance Stroll","Hungary","Medium Used",36,52,17
+"114","Lance Stroll","Hungary","Hard New",53,70,18
+"115","Alexander Albon","Hungary","Intermediate New",1,3,3
+"116","Alexander Albon","Hungary","Medium New",4,34,31
+"117","Alexander Albon","Hungary","Hard New",35,70,36
+"118","Sebastian Vettel","Hungary","Intermediate New",1,3,3
+"119","Sebastian Vettel","Hungary","Medium New",4,29,26
+"120","Sebastian Vettel","Hungary","Hard New",30,69,40
+"121","Sergio Perez","Hungary","Intermediate New",1,3,3
+"122","Sergio Perez","Hungary","Medium Used",4,35,32
+"123","Sergio Perez","Hungary","Hard New",36,69,34
+"124","Daniel Ricciardo","Hungary","Intermediate New",1,4,4
+"125","Daniel Ricciardo","Hungary","Medium Used",5,43,39
+"126","Daniel Ricciardo","Hungary","Medium New",44,69,26
+"127","Kevin Magnussen","Hungary","Medium New",1,35,35
+"128","Kevin Magnussen","Hungary","Hard New",36,69,34
+"129","Carlos Sainz","Hungary","Intermediate New",1,3,3
+"130","Carlos Sainz","Hungary","Medium New",4,40,37
+"131","Carlos Sainz","Hungary","Hard New",41,69,29
+"132","Charles Leclerc","Hungary","Intermediate New",1,2,2
+"133","Charles Leclerc","Hungary","Soft Used",3,20,18
+"134","Charles Leclerc","Hungary","Hard New",21,69,49
+"135","Daniil Kvyat","Hungary","Intermediate New",1,1,1
+"136","Daniil Kvyat","Hungary","Soft New",2,18,17
+"137","Daniil Kvyat","Hungary","Hard New",19,69,51
+"138","Lando Norris","Hungary","Intermediate New",1,4,4
+"139","Lando Norris","Hungary","Medium New",5,35,31
+"140","Lando Norris","Hungary","Hard New",36,69,34
+"141","Esteban Ocon","Hungary","Intermediate New",1,4,4
+"142","Esteban Ocon","Hungary","Medium New",5,31,27
+"143","Esteban Ocon","Hungary","Hard New",32,69,38
+"144","Romain Grosjean","Hungary","Medium New",1,34,34
+"145","Romain Grosjean","Hungary","Hard New",35,69,35
+"146","Kimi Räikkönen","Hungary","Intermediate New",1,3,3
+"147","Kimi Räikkönen","Hungary","Medium New",4,33,30
+"148","Antonio Giovinazzi","Hungary","Intermediate New",1,4,4
+"149","Antonio Giovinazzi","Hungary","Soft New",5,20,16
+"150","Antonio Giovinazzi","Hungary","Medium New",21,40,20
+"151","Antonio Giovinazzi","Hungary","Hard New",41,69,29
+"152","George Russell","Hungary","Intermediate New",1,4,4
+"153","George Russell","Hungary","Soft New",5,19,15
+"154","George Russell","Hungary","Medium New",20,50,31
+"155","George Russell","Hungary","Medium Used",51,69,19
+"156","Nicholas Latifi","Hungary","Intermediate New",1,3,3
+"157","Nicholas Latifi","Hungary","Soft New",4,4,1
+"158","Nicholas Latifi","Hungary","Medium New",5,31,27
+"159","Nicholas Latifi","Hungary","Medium Used",32,39,8
+"160","Nicholas Latifi","Hungary","Soft Used",40,52,13
+"161","Nicholas Latifi","Hungary","Hard New",53,65,13
+"162","Pierre Gasly","Hungary","Intermediate New",1,3,3
+"163","Pierre Gasly","Hungary","Soft New",4,15,12
+"164","Kimi Räikkönen","Hungary","Hard New",34,69,36
+"165","Lewis Hamilton","Great Britain","Medium Used",1,13,13
+"166","Lewis Hamilton","Great Britain","Hard New",14,52,39
+"167","Max Verstappen","Great Britain","Medium Used",1,13,13
+"168","Max Verstappen","Great Britain","Hard New",14,50,37
+"169","Max Verstappen","Great Britain","Soft Used",51,52,2
+"170","Charles Leclerc","Great Britain","Medium Used",1,13,13
+"171","Charles Leclerc","Great Britain","Hard New",14,52,39
+"172","Daniel Ricciardo","Great Britain","Soft Used",1,12,12
+"173","Daniel Ricciardo","Great Britain","Hard New",13,52,40
+"174","Lando Norris","Great Britain","Soft Used",1,12,12
+"175","Lando Norris","Great Britain","Hard New",13,52,40
+"176","Esteban Ocon","Great Britain","Soft Used",1,12,12
+"177","Esteban Ocon","Great Britain","Hard New",13,52,40
+"178","Pierre Gasly","Great Britain","Medium New",1,12,12
+"179","Pierre Gasly","Great Britain","Hard New",13,52,40
+"180","Alexander Albon","Great Britain","Medium New",1,6,6
+"181","Alexander Albon","Great Britain","Hard New",7,30,24
+"182","Alexander Albon","Great Britain","Medium Used",31,52,22
+"183","Lance Stroll","Great Britain","Medium Used",1,13,13
+"184","Lance Stroll","Great Britain","Hard New",14,52,39
+"185","Sebastian Vettel","Great Britain","Soft Used",1,12,12
+"186","Sebastian Vettel","Great Britain","Hard New",13,52,40
+"187","Valtteri Bottas","Great Britain","Medium Used",1,13,13
+"188","Valtteri Bottas","Great Britain","Hard New",14,50,37
+"189","Valtteri Bottas","Great Britain","Soft Used",51,52,2
+"190","George Russell","Great Britain","Medium New",1,12,12
+"191","George Russell","Great Britain","Hard New",13,52,40
+"192","Carlos Sainz","Great Britain","Soft Used",1,13,13
+"193","Carlos Sainz","Great Britain","Hard New",14,51,38
+"194","Carlos Sainz","Great Britain","Medium New",52,52,1
+"195","Antonio Giovinazzi","Great Britain","Medium New",1,12,12
+"196","Antonio Giovinazzi","Great Britain","Hard New",13,52,40
+"197","Nicholas Latifi","Great Britain","Medium New",1,12,12
+"198","Nicholas Latifi","Great Britain","Hard New",13,52,40
+"199","Romain Grosjean","Great Britain","Medium New",1,36,36
+"200","Romain Grosjean","Great Britain","Hard New",37,52,16
+"201","Kimi Räikkönen","Great Britain","Medium New",1,12,12
+"202","Kimi Räikkönen","Great Britain","Hard New",13,47,35
+"203","Kimi Räikkönen","Great Britain","Soft New",48,51,4
+"204","Daniil Kvyat","Great Britain","Medium New",1,11,11
+"205","Kevin Magnussen","Great Britain","Medium New",1,1,1
+"206","Max Verstappen","70TH Anniversary","Hard Used",1,26,26
+"207","Max Verstappen","70TH Anniversary","Medium New",27,32,6
+"208","Max Verstappen","70TH Anniversary","Hard New",33,52,20
+"209","Lewis Hamilton","70TH Anniversary","Medium Used",1,14,14
+"210","Lewis Hamilton","70TH Anniversary","Hard New",15,41,27
+"211","Lewis Hamilton","70TH Anniversary","Hard New",42,52,11
+"212","Valtteri Bottas","70TH Anniversary","Medium Used",1,13,13
+"213","Valtteri Bottas","70TH Anniversary","Hard New",14,32,19
+"214","Valtteri Bottas","70TH Anniversary","Hard New",33,52,20
+"215","Charles Leclerc","70TH Anniversary","Medium Used",1,18,18
+"216","Charles Leclerc","70TH Anniversary","Hard New",19,52,34
+"217","Alexander Albon","70TH Anniversary","Medium Used",1,6,6
+"218","Alexander Albon","70TH Anniversary","Hard New",7,30,24
+"219","Alexander Albon","70TH Anniversary","Hard New",31,52,22
+"220","Lance Stroll","70TH Anniversary","Medium Used",1,18,18
+"221","Lance Stroll","70TH Anniversary","Hard New",19,31,13
+"222","Lance Stroll","70TH Anniversary","Hard New",32,52,21
+"223","Nico Hulkenberg","70TH Anniversary","Medium Used",1,15,15
+"224","Nico Hulkenberg","70TH Anniversary","Hard New",16,30,15
+"225","Nico Hulkenberg","70TH Anniversary","Hard New",31,44,14
+"226","Nico Hulkenberg","70TH Anniversary","Soft Used",45,52,8
+"227","Esteban Ocon","70TH Anniversary","Medium New",1,22,22
+"228","Esteban Ocon","70TH Anniversary","Hard New",23,52,30
+"229","Lando Norris","70TH Anniversary","Medium Used",1,12,12
+"230","Lando Norris","70TH Anniversary","Hard New",13,29,17
+"231","Lando Norris","70TH Anniversary","Hard New",30,52,23
+"232","Daniil Kvyat","70TH Anniversary","Hard New",1,19,19
+"233","Daniil Kvyat","70TH Anniversary","Hard New",20,35,16
+"234","Daniil Kvyat","70TH Anniversary","Medium New",36,52,17
+"235","Pierre Gasly","70TH Anniversary","Medium Used",1,7,7
+"236","Pierre Gasly","70TH Anniversary","Hard New",8,23,16
+"237","Pierre Gasly","70TH Anniversary","Hard New",24,52,29
+"238","Sebastian Vettel","70TH Anniversary","Hard Used",1,22,22
+"239","Sebastian Vettel","70TH Anniversary","Medium Used",34,52,19
+"240","Carlos Sainz","70TH Anniversary","Hard New",1,22,22
+"241","Carlos Sainz","70TH Anniversary","Medium Used",23,34,12
+"242","Carlos Sainz","70TH Anniversary","Hard New",35,52,18
+"243","Daniel Ricciardo","70TH Anniversary","Medium Used",1,14,14
+"244","Daniel Ricciardo","70TH Anniversary","Medium Used",15,26,12
+"245","Daniel Ricciardo","70TH Anniversary","Hard New",27,35,9
+"246","Daniel Ricciardo","70TH Anniversary","Medium Used",36,51,16
+"247","Kimi Räikkönen","70TH Anniversary","Hard Used",1,26,26
+"248","Kimi Räikkönen","70TH Anniversary","Medium New",27,51,25
+"249","Romain Grosjean","70TH Anniversary","Medium Used",1,17,17
+"250","Romain Grosjean","70TH Anniversary","Hard Used",18,38,21
+"251","Romain Grosjean","70TH Anniversary","Hard New",39,51,13
+"252","Antonio Giovinazzi","70TH Anniversary","Medium New",1,7,7
+"253","Antonio Giovinazzi","70TH Anniversary","Hard New",8,33,26
+"254","Antonio Giovinazzi","70TH Anniversary","Medium Used",34,51,18
+"255","George Russell","70TH Anniversary","Medium New",1,8,8
+"256","George Russell","70TH Anniversary","Hard New",9,24,16
+"257","George Russell","70TH Anniversary","Hard New",25,39,15
+"258","George Russell","70TH Anniversary","Medium Used",40,51,12
+"259","Nicholas Latifi","70TH Anniversary","Medium New",1,9,9
+"260","Nicholas Latifi","70TH Anniversary","Hard New",10,26,17
+"261","Nicholas Latifi","70TH Anniversary","Hard New",27,46,20
+"262","Kevin Magnussen","70TH Anniversary","Hard Used",10,20,11
+"263","Kevin Magnussen","70TH Anniversary","Hard New",21,43,23
+"264","Sebastian Vettel","70TH Anniversary","Hard New",23,33,11
+"265","Kevin Magnussen","70TH Anniversary","Medium New",1,9,9
+"266","Nicholas Latifi","70TH Anniversary","Medium New",47,51,5
+"267","Lewis Hamilton","Spain","Soft Used",1,23,23
+"268","Lewis Hamilton","Spain","Medium New",24,50,27
+"269","Lewis Hamilton","Spain","Medium New",51,66,16
+"270","Max Verstappen","Spain","Soft Used",1,21,21
+"271","Max Verstappen","Spain","Medium New",22,41,20
+"272","Max Verstappen","Spain","Medium New",42,66,25
+"273","Valtteri Bottas","Spain","Soft Used",1,23,23
+"274","Valtteri Bottas","Spain","Medium New",24,48,25
+"275","Valtteri Bottas","Spain","Soft Used",49,64,16
+"276","Valtteri Bottas","Spain","Medium New",65,66,2
+"277","Lance Stroll","Spain","Soft Used",1,27,27
+"278","Lance Stroll","Spain","Medium New",28,42,15
+"279","Lance Stroll","Spain","Soft Used",43,65,23
+"280","Sergio Perez","Spain","Soft Used",1,29,29
+"281","Sergio Perez","Spain","Medium New",30,65,36
+"282","Carlos Sainz","Spain","Soft Used",1,22,22
+"283","Carlos Sainz","Spain","Soft Used",23,41,19
+"284","Carlos Sainz","Spain","Medium New",42,65,24
+"285","Sebastian Vettel","Spain","Medium New",1,29,29
+"286","Sebastian Vettel","Spain","Soft Used",30,65,36
+"287","Alexander Albon","Spain","Medium New",40,65,26
+"288","Pierre Gasly","Spain","Soft Used",1,21,21
+"289","Pierre Gasly","Spain","Medium New",22,42,21
+"290","Pierre Gasly","Spain","Medium New",43,65,23
+"291","Lando Norris","Spain","Soft Used",1,21,21
+"292","Lando Norris","Spain","Soft Used",22,44,23
+"293","Lando Norris","Spain","Medium New",45,65,21
+"294","Daniel Ricciardo","Spain","Medium New",1,35,35
+"295","Daniel Ricciardo","Spain","Soft New",36,65,30
+"296","Daniil Kvyat","Spain","Medium New",22,45,24
+"297","Daniil Kvyat","Spain","Medium New",46,65,20
+"298","Esteban Ocon","Spain","Medium New",1,34,34
+"299","Esteban Ocon","Spain","Soft New",35,65,31
+"300","Kimi Räikkönen","Spain","Medium New",1,20,20
+"301","Kimi Räikkönen","Spain","Medium Used",21,44,24
+"302","Kimi Räikkönen","Spain","Soft New",45,65,21
+"303","Kevin Magnussen","Spain","Soft Used",1,28,28
+"304","Kevin Magnussen","Spain","Medium New",29,65,37
+"305","Antonio Giovinazzi","Spain","Medium New",1,21,21
+"306","Antonio Giovinazzi","Spain","Medium New",22,45,24
+"307","Antonio Giovinazzi","Spain","Soft New",46,65,20
+"308","George Russell","Spain","Soft New",1,19,19
+"309","George Russell","Spain","Medium New",20,35,16
+"310","Nicholas Latifi","Spain","Medium New",1,28,28
+"311","Nicholas Latifi","Spain","Medium New",29,49,21
+"312","Nicholas Latifi","Spain","Soft New",50,64,15
+"313","Romain Grosjean","Spain","Medium Used",1,32,32
+"314","Romain Grosjean","Spain","Soft Used",33,62,30
+"315","Romain Grosjean","Spain","Soft New",63,64,2
+"316","Charles Leclerc","Spain","Soft Used",1,29,29
+"317","Charles Leclerc","Spain","Medium New",30,38,9
+"318","Alexander Albon","Spain","Soft Used",1,17,17
+"319","Alexander Albon","Spain","Hard New",18,39,22
+"320","Daniil Kvyat","Spain","Soft New",1,21,21
+"321","George Russell","Spain","Medium New",36,65,30
+"322","Lewis Hamilton","Belgium","Medium Used",1,10,10
+"323","Lewis Hamilton","Belgium","Hard New",11,44,34
+"324","Valtteri Bottas","Belgium","Medium Used",1,11,11
+"325","Valtteri Bottas","Belgium","Hard New",12,44,33
+"326","Max Verstappen","Belgium","Medium Used",1,11,11
+"327","Max Verstappen","Belgium","Hard New",12,44,33
+"328","Daniel Ricciardo","Belgium","Soft Used",1,11,11
+"329","Daniel Ricciardo","Belgium","Hard New",12,44,33
+"330","Esteban Ocon","Belgium","Soft Used",1,11,11
+"331","Esteban Ocon","Belgium","Hard New",12,44,33
+"332","Alexander Albon","Belgium","Soft Used",1,11,11
+"333","Alexander Albon","Belgium","Medium New",12,44,33
+"334","Lando Norris","Belgium","Soft Used",1,11,11
+"335","Lando Norris","Belgium","Hard New",12,44,33
+"336","Pierre Gasly","Belgium","Hard New",1,26,26
+"337","Pierre Gasly","Belgium","Medium New",27,44,18
+"338","Lance Stroll","Belgium","Soft Used",1,11,11
+"339","Lance Stroll","Belgium","Hard New",12,44,33
+"340","Sergio Perez","Belgium","Soft Used",1,18,18
+"341","Sergio Perez","Belgium","Hard New",19,44,26
+"342","Daniil Kvyat","Belgium","Medium New",1,11,11
+"343","Daniil Kvyat","Belgium","Hard New",12,44,33
+"344","Kimi Räikkönen","Belgium","Medium New",1,10,10
+"345","Kimi Räikkönen","Belgium","Hard Used",11,44,34
+"346","Sebastian Vettel","Belgium","Medium New",1,11,11
+"347","Sebastian Vettel","Belgium","Hard New",12,44,33
+"348","Charles Leclerc","Belgium","Soft New",1,10,10
+"349","Charles Leclerc","Belgium","Medium New",25,44,20
+"350","Romain Grosjean","Belgium","Medium New",1,10,10
+"351","Romain Grosjean","Belgium","Hard New",11,44,34
+"352","Nicholas Latifi","Belgium","Medium New",1,10,10
+"353","Nicholas Latifi","Belgium","Medium New",31,44,14
+"354","Kevin Magnussen","Belgium","Medium New",1,10,10
+"355","Kevin Magnussen","Belgium","Hard New",11,35,25
+"356","Kevin Magnussen","Belgium","Soft New",36,44,9
+"357","Antonio Giovinazzi","Belgium","Medium New",1,9,9
+"358","George Russell","Belgium","Medium New",1,9,9
+"359","Charles Leclerc","Belgium","Hard New",11,24,14
+"360","Nicholas Latifi","Belgium","Hard New",11,30,20
+"361","Pierre Gasly","Italy","Soft Used",1,19,19
+"362","Pierre Gasly","Italy","Hard New",20,26,7
+"363","Pierre Gasly","Italy","Medium New",27,53,27
+"364","Carlos Sainz","Italy","Soft Used",1,22,22
+"365","Carlos Sainz","Italy","Medium New",23,26,4
+"366","Carlos Sainz","Italy","Medium Used",27,53,27
+"367","Lance Stroll","Italy","Soft Used",1,26,26
+"368","Lance Stroll","Italy","Medium New",27,53,27
+"369","Lando Norris","Italy","Soft Used",1,22,22
+"370","Lando Norris","Italy","Medium New",23,26,4
+"371","Lando Norris","Italy","Medium Used",27,53,27
+"372","Valtteri Bottas","Italy","Soft Used",1,22,22
+"373","Valtteri Bottas","Italy","Medium New",23,26,4
+"374","Valtteri Bottas","Italy","Medium Used",27,53,27
+"375","Daniel Ricciardo","Italy","Soft Used",1,22,22
+"376","Daniel Ricciardo","Italy","Medium New",23,26,4
+"377","Daniel Ricciardo","Italy","Medium Used",27,53,27
+"378","Lewis Hamilton","Italy","Soft Used",1,20,20
+"379","Lewis Hamilton","Italy","Medium New",21,26,6
+"380","Lewis Hamilton","Italy","Hard New",27,53,27
+"381","Esteban Ocon","Italy","Soft New",1,22,22
+"382","Esteban Ocon","Italy","Medium New",23,26,4
+"383","Esteban Ocon","Italy","Soft Used",27,53,27
+"384","Daniil Kvyat","Italy","Hard New",1,22,22
+"385","Daniil Kvyat","Italy","Medium New",23,26,4
+"386","Daniil Kvyat","Italy","Medium Used",27,53,27
+"387","Sergio Perez","Italy","Soft Used",1,22,22
+"388","Sergio Perez","Italy","Medium New",23,26,4
+"389","Sergio Perez","Italy","Medium Used",27,53,27
+"390","Nicholas Latifi","Italy","Medium New",1,16,16
+"391","Nicholas Latifi","Italy","Hard New",17,26,10
+"392","Nicholas Latifi","Italy","Medium New",27,53,27
+"393","Romain Grosjean","Italy","Medium New",1,22,22
+"394","Romain Grosjean","Italy","Hard New",23,26,4
+"395","Romain Grosjean","Italy","Hard Used",27,53,27
+"396","Kimi Räikkönen","Italy","Medium New",1,18,18
+"397","Kimi Räikkönen","Italy","Hard New",19,26,8
+"398","Kimi Räikkönen","Italy","Soft New",27,53,27
+"399","George Russell","Italy","Medium New",1,22,22
+"400","George Russell","Italy","Hard New",23,26,4
+"401","George Russell","Italy","Medium New",27,53,27
+"402","Alexander Albon","Italy","Soft Used",1,22,22
+"403","Alexander Albon","Italy","Medium New",23,26,4
+"404","Alexander Albon","Italy","Hard New",27,53,27
+"405","Antonio Giovinazzi","Italy","Medium New",1,20,20
+"406","Antonio Giovinazzi","Italy","Hard New",21,26,6
+"407","Antonio Giovinazzi","Italy","Soft New",27,53,27
+"408","Max Verstappen","Italy","Soft Used",1,22,22
+"409","Max Verstappen","Italy","Medium New",23,26,4
+"410","Max Verstappen","Italy","Medium Used",27,30,4
+"411","Charles Leclerc","Italy","Soft New",1,17,17
+"412","Charles Leclerc","Italy","Hard New",18,23,6
+"413","Kevin Magnussen","Italy","Medium New",1,1,1
+"414","Kevin Magnussen","Italy","Hard New",2,17,16
+"415","Sebastian Vettel","Italy","Hard New",1,6,6
+"416","Pierre Gasly","Tuscany","Soft New",1,1,1
+"417","Max Verstappen","Tuscany","Soft Used",1,1,1
+"418","Carlos Sainz","Tuscany","Soft Used",1,5,5
+"419","Antonio Giovinazzi","Tuscany","Soft New",1,5,5
+"420","Kevin Magnussen","Tuscany","Soft New",1,5,5
+"421","Nicholas Latifi","Tuscany","Medium New",1,5,5
+"422","Esteban Ocon","Tuscany","Soft Used",1,7,7
+"423","Lance Stroll","Tuscany","Soft Used",1,8,8
+"424","Lance Stroll","Tuscany","Soft Used",9,30,22
+"425","Lance Stroll","Tuscany","Medium New",31,42,12
+"426","Lewis Hamilton","Tuscany","Soft Used",1,8,8
+"427","Lewis Hamilton","Tuscany","Medium New",9,32,24
+"428","Lewis Hamilton","Tuscany","Hard New",33,44,12
+"429","Lewis Hamilton","Tuscany","Medium New",45,45,1
+"430","Valtteri Bottas","Tuscany","Soft Used",1,8,8
+"431","Valtteri Bottas","Tuscany","Medium New",9,31,23
+"432","Valtteri Bottas","Tuscany","Hard New",32,43,12
+"433","Valtteri Bottas","Tuscany","Medium New",44,45,2
+"434","Alexander Albon","Tuscany","Soft Used",1,8,8
+"435","Alexander Albon","Tuscany","Soft Used",9,32,24
+"436","Alexander Albon","Tuscany","Medium New",33,43,11
+"437","Alexander Albon","Tuscany","Soft Used",44,45,2
+"438","Daniel Ricciardo","Tuscany","Soft Used",1,8,8
+"439","Daniel Ricciardo","Tuscany","Soft Used",9,27,19
+"440","Daniel Ricciardo","Tuscany","Medium New",28,43,16
+"441","Sergio Perez","Tuscany","Soft Used",1,8,8
+"442","Sergio Perez","Tuscany","Medium New",29,43,15
+"443","Sergio Perez","Tuscany","Soft Used",44,45,2
+"444","Lando Norris","Tuscany","Soft New",1,8,8
+"445","Lando Norris","Tuscany","Soft Used",9,29,21
+"446","Lando Norris","Tuscany","Medium New",30,43,14
+"447","Lando Norris","Tuscany","Soft Used",44,45,2
+"448","Lando Norris","Tuscany","Soft Used",46,59,14
+"449","Lewis Hamilton","Tuscany","Soft Used",46,59,14
+"450","Valtteri Bottas","Tuscany","Soft Used",46,59,14
+"451","Alexander Albon","Tuscany","Soft Used",46,59,14
+"452","Daniel Ricciardo","Tuscany","Soft Used",46,59,14
+"453","Sergio Perez","Tuscany","Soft Used",46,59,14
+"454","Daniil Kvyat","Tuscany","Medium New",1,8,8
+"455","Daniil Kvyat","Tuscany","Soft New",9,29,21
+"456","Daniil Kvyat","Tuscany","Medium Used",30,43,14
+"457","Daniil Kvyat","Tuscany","Soft Used",44,45,2
+"458","Daniil Kvyat","Tuscany","Soft Used",46,59,14
+"459","Charles Leclerc","Tuscany","Soft Used",1,8,8
+"460","Charles Leclerc","Tuscany","Soft Used",9,21,13
+"461","Charles Leclerc","Tuscany","Hard New",22,37,16
+"462","Charles Leclerc","Tuscany","Medium New",38,45,8
+"463","Charles Leclerc","Tuscany","Soft Used",46,59,14
+"464","Kimi Räikkönen","Tuscany","Medium New",1,1,1
+"465","Kimi Räikkönen","Tuscany","Medium Used",2,8,7
+"466","Kimi Räikkönen","Tuscany","Medium Used",9,27,19
+"467","Kimi Räikkönen","Tuscany","Hard New",28,42,15
+"468","Kimi Räikkönen","Tuscany","Soft New",43,44,2
+"469","Kimi Räikkönen","Tuscany","Soft Used",45,59,15
+"470","Sebastian Vettel","Tuscany","Soft New",1,1,1
+"471","Sebastian Vettel","Tuscany","Medium New",2,8,7
+"472","Sebastian Vettel","Tuscany","Soft Used",9,28,20
+"473","Sebastian Vettel","Tuscany","Hard New",29,43,15
+"474","Sebastian Vettel","Tuscany","Soft Used",44,45,2
+"475","Sebastian Vettel","Tuscany","Soft Used",46,59,14
+"476","George Russell","Tuscany","Medium New",1,8,8
+"477","George Russell","Tuscany","Medium New",9,29,21
+"478","George Russell","Tuscany","Hard New",30,43,14
+"479","George Russell","Tuscany","Soft New",44,45,2
+"480","George Russell","Tuscany","Soft Used",46,59,14
+"481","Romain Grosjean","Tuscany","Medium New",1,8,8
+"482","Romain Grosjean","Tuscany","Soft New",9,28,20
+"483","Romain Grosjean","Tuscany","Hard New",29,42,14
+"484","Romain Grosjean","Tuscany","Soft Used",43,44,2
+"485","Romain Grosjean","Tuscany","Soft Used",45,59,15
+"486","Daniel Ricciardo","Tuscany","Soft Used",44,45,2
+"487","Sergio Perez","Tuscany","Soft Used",9,28,20
+"488","Valtteri Bottas","Russian","Medium Used",1,26,26
+"489","Valtteri Bottas","Russian","Hard New",27,53,27
+"490","Max Verstappen","Russian","Medium Used",1,25,25
+"491","Max Verstappen","Russian","Hard New",26,53,28
+"492","Lewis Hamilton","Russian","Soft Used",1,16,16
+"493","Lewis Hamilton","Russian","Hard New",18,53,36
+"494","Sergio Perez","Russian","Soft Used",1,20,20
+"495","Sergio Perez","Russian","Hard New",21,53,33
+"496","Daniel Ricciardo","Russian","Soft Used",1,15,15
+"497","Daniel Ricciardo","Russian","Hard New",16,53,38
+"498","Charles Leclerc","Russian","Medium New",1,28,28
+"499","Charles Leclerc","Russian","Hard New",29,53,25
+"500","Esteban Ocon","Russian","Soft Used",1,18,18
+"501","Daniil Kvyat","Russian","Hard New",1,30,30
+"502","Daniil Kvyat","Russian","Medium New",31,53,23
+"503","Pierre Gasly","Russian","Soft Used",1,15,15
+"504","Pierre Gasly","Russian","Hard New",16,42,27
+"505","Pierre Gasly","Russian","Medium New",43,53,11
+"506","Alexander Albon","Russian","Soft Used",1,1,1
+"507","Alexander Albon","Russian","Hard New",2,27,26
+"508","Alexander Albon","Russian","Medium New",28,53,26
+"509","Antonio Giovinazzi","Russian","Medium New",1,16,16
+"510","Antonio Giovinazzi","Russian","Hard New",17,52,36
+"511","Kevin Magnussen","Russian","Medium New",1,19,19
+"512","Kevin Magnussen","Russian","Hard New",20,52,33
+"513","Sebastian Vettel","Russian","Medium New",1,30,30
+"514","Sebastian Vettel","Russian","Hard New",31,52,22
+"515","Kimi Räikkönen","Russian","Hard New",1,35,35
+"516","Kimi Räikkönen","Russian","Medium New",36,52,17
+"517","Lando Norris","Russian","Soft Used",1,1,1
+"518","Lando Norris","Russian","Hard New",2,47,46
+"519","Lando Norris","Russian","Medium New",48,52,5
+"520","Nicholas Latifi","Russian","Medium New",1,17,17
+"521","Nicholas Latifi","Russian","Hard New",18,52,35
+"522","Romain Grosjean","Russian","Medium New",1,17,17
+"523","Romain Grosjean","Russian","Hard New",18,42,25
+"524","Romain Grosjean","Russian","Medium New",43,52,10
+"525","George Russell","Russian","Medium New",1,1,1
+"526","George Russell","Russian","Medium New",15,50,36
+"527","George Russell","Russian","Soft New",51,52,2
+"528","Carlos Sainz","Russian","Soft Used",1,1,1
+"529","Lance Stroll","Russian","Medium New",1,1,1
+"530","Esteban Ocon","Russian","Hard New",19,53,35
+"531","George Russell","Russian","Hard New",2,14,13
+"532","Lewis Hamilton","Germany","Soft Used",1,16,16
+"533","Lewis Hamilton","Germany","Medium New",17,45,29
+"534","Lewis Hamilton","Germany","Soft Used",46,60,15
+"535","Max Verstappen","Germany","Soft Used",1,16,16
+"536","Max Verstappen","Germany","Medium New",17,45,29
+"537","Max Verstappen","Germany","Soft Used",46,60,15
+"538","Daniel Ricciardo","Germany","Soft Used",1,16,16
+"539","Daniel Ricciardo","Germany","Medium New",17,44,28
+"540","Daniel Ricciardo","Germany","Soft Used",45,60,16
+"541","Sergio Perez","Germany","Soft Used",1,28,28
+"542","Sergio Perez","Germany","Medium New",29,45,17
+"543","Sergio Perez","Germany","Soft Used",46,60,15
+"544","Carlos Sainz","Germany","Soft Used",1,28,28
+"545","Carlos Sainz","Germany","Medium New",29,44,16
+"546","Carlos Sainz","Germany","Soft Used",45,60,16
+"547","Pierre Gasly","Germany","Medium New",1,30,30
+"548","Pierre Gasly","Germany","Hard New",31,44,14
+"549","Pierre Gasly","Germany","Soft New",45,60,16
+"550","Charles Leclerc","Germany","Soft Used",1,10,10
+"551","Charles Leclerc","Germany","Medium New",11,35,25
+"552","Charles Leclerc","Germany","Medium Used",36,60,25
+"553","Romain Grosjean","Germany","Medium New",1,28,28
+"554","Romain Grosjean","Germany","Hard New",29,60,32
+"555","Antonio Giovinazzi","Germany","Soft New",1,15,15
+"556","Antonio Giovinazzi","Germany","Medium New",16,36,21
+"557","Antonio Giovinazzi","Germany","Medium New",37,60,24
+"558","Sebastian Vettel","Germany","Medium New",1,11,11
+"559","Sebastian Vettel","Germany","Hard New",12,41,30
+"560","Sebastian Vettel","Germany","Soft New",42,60,19
+"561","Kimi Räikkönen","Germany","Soft New",1,10,10
+"562","Kimi Räikkönen","Germany","Medium New",11,44,34
+"563","Kimi Räikkönen","Germany","Soft New",45,60,16
+"564","Nico Hulkenberg","Germany","Soft New",1,29,29
+"565","Nico Hulkenberg","Germany","Medium New",30,44,15
+"566","Nico Hulkenberg","Germany","Soft New",45,60,16
+"567","Kevin Magnussen","Germany","Soft New",1,14,14
+"568","Kevin Magnussen","Germany","Medium New",15,34,20
+"569","Kevin Magnussen","Germany","Medium New",35,60,26
+"570","Nicholas Latifi","Germany","Soft New",1,14,14
+"571","Nicholas Latifi","Germany","Medium New",15,33,19
+"572","Nicholas Latifi","Germany","Medium New",34,60,27
+"573","Daniil Kvyat","Germany","Medium New",1,17,17
+"574","Daniil Kvyat","Germany","Hard New",18,44,27
+"575","Daniil Kvyat","Germany","Soft New",45,60,16
+"576","Lando Norris","Germany","Soft Used",1,29,29
+"577","Lando Norris","Germany","Medium New",30,42,13
+"578","Alexander Albon","Germany","Soft Used",1,7,7
+"579","Alexander Albon","Germany","Medium New",8,23,16
+"580","Esteban Ocon","Germany","Soft Used",1,22,22
+"581","Valtteri Bottas","Germany","Soft Used",1,13,13
+"582","Valtteri Bottas","Germany","Medium New",14,18,5
+"583","George Russell","Germany","Soft New",1,11,11
+"584","George Russell","Germany","Medium New",12,12,1
+"585","Lewis Hamilton","Portugal","Medium Used",1,40,40
+"586","Lewis Hamilton","Portugal","Hard New",41,66,26
+"587","Valtteri Bottas","Portugal","Medium Used",1,41,41
+"588","Valtteri Bottas","Portugal","Hard New",42,66,25
+"589","Max Verstappen","Portugal","Soft Used",1,23,23
+"590","Max Verstappen","Portugal","Medium New",24,66,43
+"591","Charles Leclerc","Portugal","Medium Used",1,34,34
+"592","Charles Leclerc","Portugal","Hard New",35,66,32
+"593","Pierre Gasly","Portugal","Soft Used",1,28,28
+"594","Pierre Gasly","Portugal","Medium New",29,65,37
+"595","Carlos Sainz","Portugal","Soft Used",1,26,26
+"596","Carlos Sainz","Portugal","Medium New",27,65,39
+"597","Sergio Perez","Portugal","Soft Used",1,1,1
+"598","Sergio Perez","Portugal","Medium New",2,45,44
+"599","Sergio Perez","Portugal","Soft Used",46,65,20
+"600","Esteban Ocon","Portugal","Medium New",1,53,53
+"601","Esteban Ocon","Portugal","Soft New",54,65,12
+"602","Daniel Ricciardo","Portugal","Soft Used",1,14,14
+"603","Daniel Ricciardo","Portugal","Medium New",15,65,51
+"604","Sebastian Vettel","Portugal","Medium Used",1,27,27
+"605","Sebastian Vettel","Portugal","Hard New",28,65,38
+"606","Kimi Räikkönen","Portugal","Soft New",1,11,11
+"607","Kimi Räikkönen","Portugal","Medium New",12,65,54
+"608","Alexander Albon","Portugal","Medium Used",20,46,27
+"609","Alexander Albon","Portugal","Soft Used",47,65,19
+"610","Lando Norris","Portugal","Soft Used",1,18,18
+"611","Lando Norris","Portugal","Hard New",19,43,25
+"612","Lando Norris","Portugal","Medium New",44,65,22
+"613","George Russell","Portugal","Medium New",1,36,36
+"614","George Russell","Portugal","Hard New",37,65,29
+"615","Antonio Giovinazzi","Portugal","Medium New",1,28,28
+"616","Antonio Giovinazzi","Portugal","Hard New",29,65,37
+"617","Kevin Magnussen","Portugal","Hard New",1,31,31
+"618","Kevin Magnussen","Portugal","Medium New",32,65,34
+"619","Romain Grosjean","Portugal","Medium New",1,26,26
+"620","Romain Grosjean","Portugal","Hard New",27,65,39
+"621","Nicholas Latifi","Portugal","Medium New",1,24,24
+"622","Nicholas Latifi","Portugal","Hard New",25,64,40
+"623","Daniil Kvyat","Portugal","Hard New",26,55,30
+"624","Daniil Kvyat","Portugal","Medium New",1,25,25
+"625","Daniil Kvyat","Portugal","Soft New",56,64,9
+"626","Lance Stroll","Portugal","Medium New",1,18,18
+"627","Lance Stroll","Portugal","Hard New",19,34,16
+"628","Lance Stroll","Portugal","Soft New",35,51,17
+"629","Alexander Albon","Portugal","Soft Used",1,19,19
+"630","Lewis Hamilton","Imola","Medium Used",1,30,30
+"631","Lewis Hamilton","Imola","Hard New",31,52,22
+"632","Lewis Hamilton","Imola","Soft Used",53,63,11
+"633","Valtteri Bottas","Imola","Medium Used",1,19,19
+"634","Valtteri Bottas","Imola","Soft Used",52,63,12
+"635","Daniel Ricciardo","Imola","Soft Used",1,14,14
+"636","Daniel Ricciardo","Imola","Hard New",15,63,49
+"637","Daniil Kvyat","Imola","Soft Used",1,14,14
+"638","Daniil Kvyat","Imola","Hard New",15,51,37
+"639","Daniil Kvyat","Imola","Soft Used",52,63,12
+"640","Charles Leclerc","Imola","Soft Used",1,13,13
+"641","Charles Leclerc","Imola","Hard New",14,63,50
+"642","Sergio Perez","Imola","Medium New",1,27,27
+"643","Sergio Perez","Imola","Soft New",52,63,12
+"644","Carlos Sainz","Imola","Soft Used",1,17,17
+"645","Carlos Sainz","Imola","Medium New",18,51,34
+"646","Carlos Sainz","Imola","Soft Used",52,63,12
+"647","Lando Norris","Imola","Soft Used",1,13,13
+"648","Lando Norris","Imola","Medium New",14,53,40
+"649","Lando Norris","Imola","Soft Used",54,63,10
+"650","Kimi Räikkönen","Imola","Medium New",1,48,48
+"651","Kimi Räikkönen","Imola","Soft New",49,63,15
+"652","Antonio Giovinazzi","Imola","Soft New",1,10,10
+"653","Antonio Giovinazzi","Imola","Medium New",11,63,53
+"654","Nicholas Latifi","Imola","Medium New",1,34,34
+"655","Nicholas Latifi","Imola","Hard New",35,63,29
+"656","Sebastian Vettel","Imola","Medium New",1,39,39
+"657","Sebastian Vettel","Imola","Hard New",40,51,12
+"658","Sebastian Vettel","Imola","Soft New",52,63,12
+"659","Lance Stroll","Imola","Medium Used",30,52,23
+"660","Lance Stroll","Imola","Medium New",1,1,1
+"661","Lance Stroll","Imola","Soft New",53,63,11
+"662","Romain Grosjean","Imola","Medium New",1,9,9
+"663","Romain Grosjean","Imola","Hard New",10,50,41
+"664","Romain Grosjean","Imola","Soft New",51,63,13
+"665","Alexander Albon","Imola","Soft Used",1,14,14
+"666","Alexander Albon","Imola","Hard New",15,59,45
+"667","Alexander Albon","Imola","Soft Used",60,63,4
+"668","George Russell","Imola","Medium New",1,11,11
+"669","George Russell","Imola","Hard New",12,51,40
+"670","Max Verstappen","Imola","Medium Used",1,18,18
+"671","Max Verstappen","Imola","Hard New",19,50,32
+"672","Kevin Magnussen","Imola","Medium New",1,27,27
+"673","Kevin Magnussen","Imola","Hard New",28,47,20
+"674","Esteban Ocon","Imola","Medium New",1,13,13
+"675","Esteban Ocon","Imola","Hard New",14,27,14
+"676","Pierre Gasly","Imola","Soft Used",1,8,8
+"677","Sergio Perez","Imola","Hard New",28,51,24
+"678","Lance Stroll","Imola","Hard New",2,29,28
+"679","Valtteri Bottas","Imola","Hard New",20,51,32
+"680","Lewis Hamilton","Turkey","Wet New",1,8,8
+"681","Lewis Hamilton","Turkey","Intermediate Used",9,58,50
+"682","Sergio Perez","Turkey","Lluvia Extrema Usado",1,10,10
+"683","Sergio Perez","Turkey","Intermediate New",11,58,48
+"684","Sebastian Vettel","Turkey","Lluvia Extrema Usado",1,8,8
+"685","Sebastian Vettel","Turkey","Intermediate New",9,33,25
+"686","Sebastian Vettel","Turkey","Intermediate New",34,58,25
+"687","Charles Leclerc","Turkey","Lluvia Extrema Usado",1,6,6
+"688","Charles Leclerc","Turkey","Intermediate New",7,30,24
+"689","Charles Leclerc","Turkey","Intermediate New",31,58,28
+"690","Carlos Sainz","Turkey","Lluvia Extrema Usado",1,10,10
+"691","Carlos Sainz","Turkey","Intermediate New",11,33,23
+"692","Carlos Sainz","Turkey","Intermediate New",34,58,25
+"693","Max Verstappen","Turkey","Lluvia Extrema Usado",1,11,11
+"694","Max Verstappen","Turkey","Intermediate New",12,18,7
+"695","Max Verstappen","Turkey","Intermediate Used",19,43,25
+"696","Max Verstappen","Turkey","Intermediate New",44,58,15
+"697","Alexander Albon","Turkey","Wet New",1,12,12
+"698","Alexander Albon","Turkey","Intermediate New",13,34,22
+"699","Alexander Albon","Turkey","Intermediate New",35,58,24
+"700","Lando Norris","Turkey","Lluvia Extrema Usado",1,9,9
+"701","Lando Norris","Turkey","Intermediate New",37,58,22
+"702","Daniel Ricciardo","Turkey","Lluvia Extrema Usado",1,10,10
+"703","Daniel Ricciardo","Turkey","Intermediate New",11,32,22
+"704","Daniel Ricciardo","Turkey","Intermediate New",33,58,26
+"705","Esteban Ocon","Turkey","Lluvia Extrema Usado",1,1,1
+"706","Esteban Ocon","Turkey","Lluvia Extrema Usado",2,10,9
+"707","Esteban Ocon","Turkey","Intermediate New",11,57,47
+"708","Daniil Kvyat","Turkey","Lluvia Extrema Usado",1,8,8
+"709","Daniil Kvyat","Turkey","Intermediate New",9,57,49
+"710","Pierre Gasly","Turkey","Lluvia Extrema Usado",1,10,10
+"711","Pierre Gasly","Turkey","Intermediate New",11,33,23
+"712","Valtteri Bottas","Turkey","Intermediate Used",8,46,39
+"713","Valtteri Bottas","Turkey","Intermediate New",47,57,11
+"714","Kimi Räikkönen","Turkey","Lluvia Extrema Usado",1,8,8
+"715","Kimi Räikkönen","Turkey","Intermediate New",9,30,22
+"716","Kimi Räikkönen","Turkey","Intermediate Used",31,50,20
+"717","Kimi Räikkönen","Turkey","Intermediate New",51,57,7
+"718","George Russell","Turkey","Intermediate New",1,32,32
+"719","George Russell","Turkey","Intermediate New",33,42,10
+"720","George Russell","Turkey","Intermediate New",43,57,15
+"721","Kevin Magnussen","Turkey","Lluvia Extrema Usado",1,8,8
+"722","Kevin Magnussen","Turkey","Intermediate New",9,34,26
+"723","Kevin Magnussen","Turkey","Intermediate Used",35,55,21
+"724","Romain Grosjean","Turkey","Intermediate New",9,36,28
+"725","Nicholas Latifi","Turkey","Intermediate New",1,8,8
+"726","Nicholas Latifi","Turkey","Intermediate New",9,38,30
+"727","Nicholas Latifi","Turkey","Intermediate New",39,39,1
+"728","Antonio Giovinazzi","Turkey","Lluvia Extrema Usado",1,8,8
+"729","Antonio Giovinazzi","Turkey","Intermediate New",9,11,3
+"730","Lando Norris","Turkey","Intermediate New",10,36,27
+"731","Lance Stroll","Turkey","Lluvia Extrema Usado",1,9,9
+"732","Lance Stroll","Turkey","Intermediate New",10,36,27
+"733","Lance Stroll","Turkey","Intermediate New",37,58,22
+"734","Pierre Gasly","Turkey","Intermediate New",34,57,24
+"735","Valtteri Bottas","Turkey","Wet New",1,7,7
+"736","Romain Grosjean","Turkey","Lluvia Extrema Usado",1,8,8
+"737","Romain Grosjean","Turkey","Intermediate New",37,49,13
+"738","Lewis Hamilton","Bahrain","Medium Used",1,19,19
+"739","Lewis Hamilton","Bahrain","Medium Used",20,35,16
+"740","Lewis Hamilton","Bahrain","Hard New",36,57,22
+"741","Max Verstappen","Bahrain","Medium Used",1,1,1
+"742","Max Verstappen","Bahrain","Medium Used",2,20,19
+"743","Max Verstappen","Bahrain","Hard New",21,34,14
+"744","Max Verstappen","Bahrain","Hard New",35,46,12
+"745","Max Verstappen","Bahrain","Medium Used",47,1,-45
+"746","Alexander Albon","Bahrain","Medium Used",1,1,1
+"747","Alexander Albon","Bahrain","Medium Used",2,19,18
+"748","Alexander Albon","Bahrain","Medium Used",20,34,15
+"749","Lando Norris","Bahrain","Medium Used",1,18,18
+"750","Lando Norris","Bahrain","Medium Used",19,38,20
+"751","Lando Norris","Bahrain","Hard New",39,57,19
+"752","Carlos Sainz","Bahrain","Soft New",1,1,1
+"753","Carlos Sainz","Bahrain","Soft New",2,21,20
+"754","Carlos Sainz","Bahrain","Medium New",22,39,18
+"755","Carlos Sainz","Bahrain","Hard New",40,57,18
+"756","Pierre Gasly","Bahrain","Medium Used",1,1,1
+"757","Pierre Gasly","Bahrain","Hard New",2,25,24
+"758","Pierre Gasly","Bahrain","Hard New",26,57,32
+"759","Daniel Ricciardo","Bahrain","Medium Used",1,16,16
+"760","Daniel Ricciardo","Bahrain","Hard New",17,36,20
+"761","Daniel Ricciardo","Bahrain","Hard New",37,57,21
+"762","Valtteri Bottas","Bahrain","Medium Used",1,4,4
+"763","Valtteri Bottas","Bahrain","Hard New",5,25,21
+"764","Valtteri Bottas","Bahrain","Medium Used",26,38,13
+"765","Valtteri Bottas","Bahrain","Medium Used",39,57,19
+"766","Esteban Ocon","Bahrain","Medium Used",1,1,1
+"767","Esteban Ocon","Bahrain","Medium Used",2,17,16
+"768","Esteban Ocon","Bahrain","Medium Used",18,34,17
+"769","Esteban Ocon","Bahrain","Hard New",35,57,23
+"770","Charles Leclerc","Bahrain","Hard New",1,1,1
+"771","Charles Leclerc","Bahrain","Medium Used",2,23,22
+"772","Charles Leclerc","Bahrain","Hard New",24,40,17
+"773","Charles Leclerc","Bahrain","Hard Used",41,56,16
+"774","Daniil Kvyat","Bahrain","Medium Used",1,1,1
+"775","Daniil Kvyat","Bahrain","Soft Used",2,17,16
+"776","Daniil Kvyat","Bahrain","Hard New",18,33,16
+"777","Daniil Kvyat","Bahrain","Hard New",34,56,23
+"778","George Russell","Bahrain","Medium New",1,1,1
+"779","George Russell","Bahrain","Medium New",2,20,19
+"780","George Russell","Bahrain","Hard New",21,39,19
+"781","George Russell","Bahrain","Medium Used",40,56,17
+"782","Sebastian Vettel","Bahrain","Medium Used",1,1,1
+"783","Sebastian Vettel","Bahrain","Hard New",2,20,19
+"784","Sebastian Vettel","Bahrain","Medium Used",21,39,19
+"785","Sebastian Vettel","Bahrain","Hard New",40,56,17
+"786","Nicholas Latifi","Bahrain","Hard New",1,1,1
+"787","Nicholas Latifi","Bahrain","Medium New",2,21,20
+"788","Nicholas Latifi","Bahrain","Medium New",22,37,16
+"789","Nicholas Latifi","Bahrain","Hard Used",38,56,19
+"790","Kimi Räikkönen","Bahrain","Medium New",1,1,1
+"791","Kimi Räikkönen","Bahrain","Medium New",2,17,16
+"792","Kimi Räikkönen","Bahrain","Medium Used",41,56,16
+"793","Antonio Giovinazzi","Bahrain","Medium New",2,20,19
+"794","Antonio Giovinazzi","Bahrain","Soft New",54,56,3
+"795","Kevin Magnussen","Bahrain","Medium New",1,1,1
+"796","Kevin Magnussen","Bahrain","Hard New",2,3,2
+"797","Kevin Magnussen","Bahrain","Hard New",4,27,24
+"798","Kevin Magnussen","Bahrain","Hard Used",28,53,26
+"799","Kevin Magnussen","Bahrain","Soft New",54,56,3
+"800","Sergio Perez","Bahrain","Medium Used",1,1,1
+"801","Sergio Perez","Bahrain","Medium Used",2,20,19
+"802","Sergio Perez","Bahrain","Hard New",21,36,16
+"803","Lance Stroll","Bahrain","Medium Used",1,1,1
+"804","Lance Stroll","Bahrain","Medium Used",2,2,1
+"805","Romain Grosjean","Bahrain","Hard New",1,1,1
+"806","Kimi Räikkönen","Bahrain","Hard New",18,40,23
+"807","Alexander Albon","Bahrain","Hard New",35,57,23
+"808","Antonio Giovinazzi","Bahrain","Hard New",21,53,33
+"809","Sergio Perez","Bahrain","Hard New",37,53,17
+"810","Antonio Giovinazzi","Bahrain","Medium New",1,1,1
+"811","Sergio Perez","Sakhir","Soft Used",1,1,1
+"812","Sergio Perez","Sakhir","Medium New",2,47,46
+"813","Sergio Perez","Sakhir","Hard New",48,87,40
+"814","Esteban Ocon","Sakhir","Medium New",1,41,41
+"815","Esteban Ocon","Sakhir","Hard New",42,87,46
+"816","Lance Stroll","Sakhir","Soft Used",1,42,42
+"817","Lance Stroll","Sakhir","Medium New",43,87,45
+"818","Carlos Sainz","Sakhir","Soft Used",1,28,28
+"819","Carlos Sainz","Sakhir","Medium New",29,55,27
+"820","Carlos Sainz","Sakhir","Medium New",56,87,32
+"821","Daniel Ricciardo","Sakhir","Soft Used",1,29,29
+"822","Daniel Ricciardo","Sakhir","Medium New",30,55,26
+"823","Daniel Ricciardo","Sakhir","Hard New",56,87,32
+"824","Alexander Albon","Sakhir","Medium New",1,47,47
+"825","Alexander Albon","Sakhir","Hard New",48,62,15
+"826","Alexander Albon","Sakhir","Soft New",63,87,25
+"827","Daniil Kvyat","Sakhir","Soft Used",1,27,27
+"828","Daniil Kvyat","Sakhir","Medium Used",28,53,26
+"829","Daniil Kvyat","Sakhir","Hard New",54,87,34
+"830","Valtteri Bottas","Sakhir","Medium Used",1,49,49
+"831","Valtteri Bottas","Sakhir","Hard New",50,62,13
+"832","Valtteri Bottas","Sakhir","Hard Used",63,87,25
+"833","George Russell","Sakhir","Medium Used",1,45,45
+"834","George Russell","Sakhir","Hard New",46,62,17
+"835","George Russell","Sakhir","Medium Used",63,63,1
+"836","George Russell","Sakhir","Medium Used",64,78,15
+"837","George Russell","Sakhir","Soft Used",79,87,9
+"838","Lando Norris","Sakhir","Soft New",1,20,20
+"839","Lando Norris","Sakhir","Medium New",21,54,34
+"840","Lando Norris","Sakhir","Medium New",55,87,33
+"841","Pierre Gasly","Sakhir","Soft Used",1,28,28
+"842","Pierre Gasly","Sakhir","Medium Used",29,51,23
+"843","Pierre Gasly","Sakhir","Hard New",52,87,36
+"844","Sebastian Vettel","Sakhir","Medium Used",1,31,31
+"845","Sebastian Vettel","Sakhir","Hard New",32,54,23
+"846","Sebastian Vettel","Sakhir","Soft New",55,63,9
+"847","Sebastian Vettel","Sakhir","Soft Used",64,87,24
+"848","Antonio Giovinazzi","Sakhir","Medium New",1,26,26
+"849","Antonio Giovinazzi","Sakhir","Hard New",27,54,28
+"850","Antonio Giovinazzi","Sakhir","Medium New",55,87,33
+"851","Kimi Räikkönen","Sakhir","Medium New",1,23,23
+"852","Kimi Räikkönen","Sakhir","Hard New",24,54,31
+"853","Kimi Räikkönen","Sakhir","Medium New",55,62,8
+"854","Kimi Räikkönen","Sakhir","Soft New",63,87,25
+"855","Kevin Magnussen","Sakhir","Soft New",1,26,26
+"856","Kevin Magnussen","Sakhir","Medium New",27,54,28
+"857","Kevin Magnussen","Sakhir","Soft Used",55,87,33
+"858","Jack Aitken","Sakhir","Medium New",1,31,31
+"859","Jack Aitken","Sakhir","Hard New",32,54,23
+"860","Jack Aitken","Sakhir","Medium New",55,59,5
+"861","Jack Aitken","Sakhir","Soft New",60,87,28
+"862","Pietro Fittipaldi","Sakhir","Soft New",1,31,31
+"863","Pietro Fittipaldi","Sakhir","Medium New",32,53,22
+"864","Pietro Fittipaldi","Sakhir","Soft Used",54,63,10
+"865","Pietro Fittipaldi","Sakhir","Soft Used",64,87,24
+"866","Nicholas Latifi","Sakhir","Soft New",1,27,27
+"867","Nicholas Latifi","Sakhir","Medium New",28,52,25
+"868","Charles Leclerc","Sakhir","Soft Used",1,1,1
+"869","Max Verstappen","Sakhir","Soft Used",1,1,1
+"870","Max Verstappen","Abu Dhabi","Medium Used",1,10,10
+"871","Max Verstappen","Abu Dhabi","Hard New",11,55,45
+"872","Valtteri Bottas","Abu Dhabi","Medium Used",1,10,10
+"873","Valtteri Bottas","Abu Dhabi","Hard New",11,55,45
+"874","Lewis Hamilton","Abu Dhabi","Medium Used",1,10,10
+"875","Lewis Hamilton","Abu Dhabi","Hard New",11,55,45
+"876","Alexander Albon","Abu Dhabi","Soft Used",1,10,10
+"877","Alexander Albon","Abu Dhabi","Hard New",11,55,45
+"878","Lando Norris","Abu Dhabi","Soft Used",1,10,10
+"879","Lando Norris","Abu Dhabi","Hard New",11,55,45
+"880","Carlos Sainz","Abu Dhabi","Medium Used",1,10,10
+"881","Carlos Sainz","Abu Dhabi","Hard New",11,55,45
+"882","Daniel Ricciardo","Abu Dhabi","Hard New",1,39,39
+"883","Daniel Ricciardo","Abu Dhabi","Medium New",40,55,16
+"884","Pierre Gasly","Abu Dhabi","Soft Used",1,10,10
+"885","Pierre Gasly","Abu Dhabi","Hard New",11,55,45
+"886","Esteban Ocon","Abu Dhabi","Medium New",1,10,10
+"887","Esteban Ocon","Abu Dhabi","Hard New",11,55,45
+"888","Lance Stroll","Abu Dhabi","Soft Used",1,10,10
+"889","Lance Stroll","Abu Dhabi","Hard New",11,55,45
+"890","Daniil Kvyat","Abu Dhabi","Soft Used",1,10,10
+"891","Daniil Kvyat","Abu Dhabi","Hard New",11,54,44
+"892","Kimi Räikkönen","Abu Dhabi","Medium New",1,10,10
+"893","Kimi Räikkönen","Abu Dhabi","Hard New",11,54,44
+"894","Charles Leclerc","Abu Dhabi","Medium Used",1,22,22
+"895","Charles Leclerc","Abu Dhabi","Hard New",23,54,32
+"896","Sebastian Vettel","Abu Dhabi","Hard New",1,35,35
+"897","Sebastian Vettel","Abu Dhabi","Medium New",36,54,19
+"898","George Russell","Abu Dhabi","Medium New",1,10,10
+"899","George Russell","Abu Dhabi","Hard New",11,54,44
+"900","Antonio Giovinazzi","Abu Dhabi","Medium New",1,27,27
+"901","Antonio Giovinazzi","Abu Dhabi","Hard New",28,54,27
+"902","Nicholas Latifi","Abu Dhabi","Medium New",1,11,11
+"903","Nicholas Latifi","Abu Dhabi","Hard New",12,35,24
+"904","Nicholas Latifi","Abu Dhabi","Medium New",36,54,19
+"905","Kevin Magnussen","Abu Dhabi","Hard New",1,31,31
+"906","Kevin Magnussen","Abu Dhabi","Medium New",32,47,16
+"907","Kevin Magnussen","Abu Dhabi","Medium New",48,54,7
+"908","Pietro Fittipaldi","Abu Dhabi","Medium New",1,10,10
+"909","Pietro Fittipaldi","Abu Dhabi","Hard New",11,34,24
+"910","Pietro Fittipaldi","Abu Dhabi","Medium New",35,48,14
+"911","Pietro Fittipaldi","Abu Dhabi","Soft Used",49,53,5
+"912","Sergio Perez","Abu Dhabi","Hard New",1,8,8
