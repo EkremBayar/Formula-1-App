@@ -1,3 +1,4 @@
 # Formula 1 App
 
-![](www/wallpaper/wallpaper2.jpg)
+![](screenshots/ss1.png)
+![](screenshots/ss2.png)
