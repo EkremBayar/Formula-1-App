@@ -1,3 +1,3 @@
-# Formula-1-App
+# Formula 1 App
 
 ![](www/wallpaper/wallpaper2.jpg)
