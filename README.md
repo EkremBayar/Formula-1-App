@@ -9,3 +9,6 @@ It designed by using R Shiny. Dashboard includes such as anaylsis and visualizat
 
 ### Highlights Page
 ![](screenshots/ss2.png)
+
+### Developer Page
+![](screenshots/ss3.png)
