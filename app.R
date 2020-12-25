@@ -1,5 +1,5 @@
 # Library -----------------------------------------------------------------
-source("library.R")
+source("library/library.R")
 
 # Functions ---------------------------------------------------------------
 source("functions.R")
@@ -27,7 +27,7 @@ data <- data.frame(
 
 # 4. HEADER ---------------------------------------------------------------
 
-header <- dashboardHeaderPlus(title = tags$img(src = "f1_logo.svg", height = '50%', width = '50%'), 
+header <- dashboardHeaderPlus(title = tags$img(src = "logo/f1_logo.svg", height = '50%', width = '50%'), 
                               enable_rightsidebar = FALSE, titleWidth = 250)
 
 
@@ -123,14 +123,14 @@ server <- function(input, output, session) {
     output$style_tag <- renderUI({
       if(input$tabs=='tab_home'){
         return(tags$head(tags$style(HTML(
-      '.content-wrapper {background-image:url("wallpaper2.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
+      '.content-wrapper {background-image:url("wallpaper/wallpaper2.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
         )}else if(input$tabs=='tab_highlights'){
           return(tags$head(tags$style(HTML(
-            '.content-wrapper {background-image:url("70.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
+            '.content-wrapper {background-image:url("wallpaper/70.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
           )
         }else if(input$tabs=='tab_developer'){
           return(tags$head(tags$style(HTML(
-            '.content-wrapper {background-image:url("wallpaper1.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
+            '.content-wrapper {background-image:url("wallpaper/wallpaper1.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
           )
         }
       else{
@@ -159,13 +159,13 @@ server <- function(input, output, session) {
     
     output$car <- renderUI({
       
-      tags$img(src = paste0("./cars/",tolower(input$teams),"_car.png"))
+      tags$img(src = paste0("cars/",tolower(input$teams),"_car.png"))
       
     })
     
     output$team_logo <- renderUI({
       
-      tags$a(tags$img(src = paste0("./teams/",tolower(input$teams),".jpg"), width = "300px"),
+      tags$a(tags$img(src = paste0("teams/",tolower(input$teams),".jpg"), width = "300px"),
              href = "https://www.mercedesamgf1.com/en/", target="_blank")
       
     })
@@ -209,7 +209,7 @@ server <- function(input, output, session) {
       post <- temp %>% pull(img) %>% as.character()
       link <- temp %>% pull(link) %>% as.character()
       
-      tags$a(tags$img(src = paste0("./highlights/", post)), href=link, target="_blank")
+      tags$a(tags$img(src = paste0("highlights/", post)), href=link, target="_blank")
       
     })
     

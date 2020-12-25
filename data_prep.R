@@ -8,36 +8,36 @@ library(openxlsx)
 
 # Tyres Summary -----------------------------------------------------------
 
-url <- "https://www.f1cfa.com/f1-tyres-statistics.asp?t=2020&gpn=All&tipo=All&driver=All"
-tyres <- read_html(url)
-tyres <- tyres%>% html_table(fill = T)
+# url <- "https://www.f1cfa.com/f1-tyres-statistics.asp?t=2020&gpn=All&tipo=All&driver=All"
+# tyres <- read_html(url)
+# tyres <- tyres%>% html_table(fill = T)
+# 
+# write.csv(tyres, "data/tyres.csv")
 
-write.csv(tyres, "dashboard/data/tyres.csv")
-
-tyres <- read.csv("dashboard/data/tyres.csv") %>% 
+tyres <- read.csv("data/tyres.csv") %>% 
   select(-X) %>% rename("#Laps" = X.Laps)
 
 
 # Color -------------------------------------------------------------------
 
-color <- read.csv("dashboard/data/color.csv", sep = ";")
+color <- read.csv("data/color.csv", sep = ";")
 
 
 # Import all data from Kaggle dataset -------------------------------------
 
-circuits <- read.csv("dashboard/data/circuits.csv")
-constructor_results <- read.csv("dashboard/data/constructor_results.csv")
-constructor_standings <- read.csv("dashboard/data/constructor_standings.csv")
-constructors <- read.csv("dashboard/data/constructors.csv")
-driver_standings <- read.csv("dashboard/data/driver_standings.csv")
-drivers <- read.csv("dashboard/data/drivers.csv")
-lap_times = read.csv("dashboard/data/lap_times.csv")
-pit_stops = read.csv("dashboard/data/pit_stops.csv")
-qualifying = read.csv("dashboard/data/qualifying.csv")
-races = read.csv("dashboard/data/races.csv")
-results = read.csv("dashboard/data/results.csv")
-seasons = read.csv("dashboard/data/seasons.csv")
-status = read.csv("dashboard/data/status.csv")
+circuits <- read.csv("data/circuits.csv")
+constructor_results <- read.csv("data/constructor_results.csv")
+constructor_standings <- read.csv("data/constructor_standings.csv")
+constructors <- read.csv("data/constructors.csv")
+driver_standings <- read.csv("data/driver_standings.csv")
+drivers <- read.csv("data/drivers.csv")
+lap_times = read.csv("data/lap_times.csv")
+pit_stops = read.csv("data/pit_stops.csv")
+qualifying = read.csv("data/qualifying.csv")
+races = read.csv("data/races.csv")
+results = read.csv("data/results.csv")
+seasons = read.csv("data/seasons.csv")
+status = read.csv("data/status.csv")
 
 
 # Subset:2020 -------------------------------------------------------------
@@ -52,7 +52,7 @@ cons <- constructor_results %>%
 
 
 # Highlights --------------------------------------------------------------
-all_highlights <- list.files("dashboard/www/highlights")
+all_highlights <- list.files("www/highlights")
 all_highlights <- data.frame(
   img = all_highlights,
   type = as.character(case_when(
@@ -70,7 +70,7 @@ rm(temp_races)
 all_highlights$name <- sapply(str_split(all_highlights$img, "-"), function(x){x[1]})
 all_highlights$race_type <- str_trim(str_remove_all(sapply(str_split(all_highlights$img, "-"), function(x){x[2]}), ".webp"))
 
-highlights <- read.xlsx("dashboard/data/highlights.xlsx") %>% 
+highlights <- read.xlsx("data/highlights.xlsx") %>% 
   separate(race, c("name", "race_type"), sep = ": ")
 
 all_highlights <- left_join(all_highlights, highlights)
@@ -167,10 +167,34 @@ drivers <- drivers %>%
 
 
 
-results2 <- results %>% 
-  left_join(drivers) %>% 
-  filter(raceId %in% f1_2020) %>% 
-  left_join(races %>% select(raceId, round, name, date) %>% rename(circuit = name), by = "raceId") %>% 
-  left_join(constructors, by = "constructorId") %>% 
-  left_join(status) %>% 
-  select(-driverId, -raceId, -number, -constructorId, -statusId)
+
+
+
+
+world_map <- map_data("world") #%>% 
+  #left_join(circuits %>% rename(region = country, clat = lat, clong = lng) %>% select(region, clat, clong, name))
+
+
+
+ggplot()+
+  geom_polygon(world_map, mapping = aes(long, lat, group = group), color = "white", show.legend = FALSE)+
+  geom_point(circuits, mapping = aes(lng, lat), color = "red")+
+  scale_fill_viridis_c(option = "C")+
+  theme_void()
+
+# numofplayers <- world_map %>% 
+#   mutate(region = as.character(region)) %>% 
+#   left_join((rv$df %>% mutate(Nationality = as.character(Nationality),
+#                               Nationality = if_else(Nationality %in% "England", "UK", Nationality)) %>%
+#                filter(League == rvLeague$League) %>%
+#                count(Nationality, name = "Number of Player") %>%
+#                rename(region = Nationality) %>%
+#                mutate(region = as.character(region))), by = "region")
+
+ggplotly(
+  ggplot(numofplayers, aes(long, lat, group = group))+
+    geom_polygon(aes(fill = `Number of Player` ), color = "white", show.legend = FALSE)+
+    scale_fill_viridis_c(option = "C")+
+    theme_void()+
+    labs(fill = "Number of Players",
+         title = "Nationality of The Players in The League"))

@@ -132,7 +132,7 @@ tags$head(
              
              
   ),
-  tags$link(rel = "shortcut icon", href = "favicon.ico") # Favicon
+  tags$link(rel = "shortcut icon", href = "logo/favicon.ico") # Favicon
 )
 
 

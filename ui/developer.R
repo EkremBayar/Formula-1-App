@@ -6,13 +6,13 @@ tabItem(tabName = "tab_developer",
                     # Personnel Info
                     h3(tags$strong("Ekrem BAYAR"), style = "color:white;"),
                     
-                    tags$img(src = "ekrem.png", width= "300px"), 
+                    tags$img(src = "developer/ekrem.png", width= "300px"), 
                     
                     h4("Data Scientist", style = "color:white;"),
                       
-                    hr(), 
-                    tags$a(h5("FIFA 19 Dashboard", style = "color:white;"), 
-                           href = "https://ekrem-bayar.shinyapps.io/FifaDash/", target="_blank"),
+                    # hr(), 
+                    # tags$a(h5("FIFA 19 Dashboard", style = "color:white;"), 
+                    #        href = "https://ekrem-bayar.shinyapps.io/FifaDash/", target="_blank"),
                     hr(),
                       
                     # Social Buttons
