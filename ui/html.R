@@ -1,9 +1,42 @@
 tags$head(
   
   
+  # Scroll
+  # tags$script(type="text/javascript",'$(document).ready(function(){
+  #                            $(".main-sidebar").css("height","100%");
+  #                            $(".main-sidebar .sidebar").css({"position":"relative","max-height": "100%","overflow": "auto"})
+  #                            })'),
+  # 
   
   
-  tags$style(HTML("input[type='search']:disabled {visibility:hidden}"),
+  
+  
+  tags$style(
+  
+  # Y ekseninde dışarıya taşma problemi için
+  HTML(".content {
+    overflow-y: auto;
+  }"),
+  
+
+  # Social Button
+ # btn-social-icon eğer tek bir renk olmasını istersen
+  HTML("a.btn.btn-social-icon.btn-kaggle {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    background-color: white;
+    color: #3c8dbc;
+}"),
+
+  
+  HTML("input[type='search']:disabled {visibility:hidden}"),
              HTML(".shiny-output-error { visibility: hidden; }"), # Hiding Errors & Warnings
              HTML(".shiny-output-error:before { visibility: hidden; }"),
              # HTML('.small-box .icon-large {font-size: 500%;}'), # Alperen-sr
@@ -83,7 +116,7 @@ tags$head(
         font-family: 'Formula1', bold;
         font-weight: 500;
         line-height: 1.1;
-        color: #e10600;
+        color: black;
       }
 
     "), 
@@ -95,7 +128,6 @@ tags$head(
         font-family: 'Formula1', bold;
         font-weight: 500;
         line-height: 1.1;
-        color: #e10600;
       }
 
     "), 
@@ -106,7 +138,17 @@ tags$head(
         font-family: 'Formula1', bold;
         font-weight: 500;
         line-height: 1.1;
-        color: #e10600;
+      }
+
+    "), 
+             
+             HTML("
+      @import url('https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf');
+      
+      h6 {
+        font-family: 'Formula1', bold;
+        font-weight: 500;
+        line-height: 1.1;
       }
 
     "), 
@@ -125,6 +167,12 @@ tags$head(
                        
 
     "),
+             
+             
+             # Drivers Tabsetpanel kırmızı
+             HTML("a {
+    color: red;
+}")
              
              
              
