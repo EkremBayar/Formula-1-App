@@ -4,6 +4,8 @@ source("library/library.R")
 # Functions ---------------------------------------------------------------
 source("functions.R")
 
+source("data.R")
+
 
 # 
 data <- data.frame(
@@ -100,10 +102,10 @@ ui <-  dashboardPagePlus(
     #    div(style = "color:white;",
     #        br(),br(),br(),br(),
     #        tags$h1("Ready! Set! Go!", style = "color:red; margin-top:100px", align = "bottom"),
-    #        tags$img(src="wallpaper/loading2.gif", width="90%"))
+    #        tags$img(src="wallpaper/loading.gif", width="90%"))
     #        )
     #   ),
-    
+    # 
     uiOutput("myBodyUI"),
     
     ############
@@ -135,21 +137,21 @@ server <- function(input, output, session) {
   })
   
   # Loading Screen
-  # Sys.sleep(5) 
-  # suppressWarnings(hide_waiter())
+   # Sys.sleep(5) 
+   # suppressWarnings(hide_waiter())
   
   # Background Image
   output$style_tag <- renderUI({
     if(input$tabs=='tab_home'){
       return(tags$head(tags$style(HTML(
-        '.content-wrapper {background-image:url("wallpaper/wallpaper2-min.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
+        '.content-wrapper {background-image:url("wallpaper/wallpaper2.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
       )}else if(input$tabs=='tab_highlights'){
         return(tags$head(tags$style(HTML(
-          '.content-wrapper {background-image:url("wallpaper/70-min.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
+          '.content-wrapper {background-image:url("wallpaper/70.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
         )
       }else if(input$tabs=='tab_developer'){
         return(tags$head(tags$style(HTML(
-          '.content-wrapper {background-image:url("wallpaper/wallpaper1-min.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
+          '.content-wrapper {background-image:url("wallpaper/wallpaper1.jpg"); height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;}')))
         )
       }
     else{
@@ -320,4 +322,4 @@ server <- function(input, output, session) {
 
 # 9. SHINY APP ------------------------------------------------------------
 
-shinyApp(ui, server) 
+shinyApp(ui = ui, server = server) 

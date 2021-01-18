@@ -15,8 +15,15 @@ library(openxlsx)
 # write.csv(tyres, "data/tyres.csv")
 
 tyres <- read.csv("data/tyres.csv") %>% 
-  select(-X) %>% rename("#Laps" = X.Laps)
+  select(-X) %>% rename("#Laps" = X.Laps) %>% 
+  mutate(Tyres = str_replace_all(Tyres,"Lluvia Extrema Usado", "Wet Used"))
 
+
+
+
+# Teams -------------------------------------------------------------------
+
+team <- read.xlsx("data/teams.xlsx")
 
 # Color -------------------------------------------------------------------
 
@@ -38,6 +45,8 @@ races = read.csv("data/races.csv")
 results = read.csv("data/results.csv")
 seasons = read.csv("data/seasons.csv")
 status = read.csv("data/status.csv")
+
+drivers_info <- read.csv("data/drivers_info.csv", sep = ";")
 
 
 # Subset:2020 -------------------------------------------------------------
@@ -126,6 +135,7 @@ driver_standings <- driver_standings%>%
   left_join(drivers) %>% 
   left_join(races %>% select(raceId, round, circuit, date)) %>% 
   select(-driverStandingsId,-driverId, -raceId, -dob, -url, -nationality, -positionText) %>% 
+  filter(!driver.name %in% c("Pietro Fittipaldi", "Jack Aitken", "Nico Hülkenberg")) %>% 
   arrange(round, -points) %>% 
   left_join(color %>% select(-cons.name))
 
@@ -138,7 +148,7 @@ lap_times <- lap_times %>%
   select(-driverId, -raceId, -dob, -url, -nationality) %>% 
   arrange(round, code, lap) %>% 
   left_join(color %>% select(-cons.name))
-  
+
 
 # Pit Stops # NOT: gganimate ile pit stop yapabilir misin?
 pit_stops <- pit_stops %>% 
@@ -159,7 +169,7 @@ qualifying <- qualifying %>%
   left_join(color %>% select(-driver.name) %>% distinct())
 
 drivers <- drivers %>% 
-  filter(driver.name != "Nico Hülkenberg") %>% 
+  filter(!driver.name %in% c("Pietro Fittipaldi", "Jack Aitken", "Nico Hülkenberg")) %>% 
   mutate(driver.name = as.character(driver.name)) %>% 
   inner_join((color %>% mutate(new = paste0(driver.name, "-", cons.name)) %>% 
                 filter(new != "George Russell-Mercedes") %>% select(-new)))
@@ -170,31 +180,65 @@ drivers <- drivers %>%
 
 
 
+library(ggimage)
+library(gganimate)
 
-world_map <- map_data("world") #%>% 
-  #left_join(circuits %>% rename(region = country, clat = lat, clong = lng) %>% select(region, clat, clong, name))
+driver_standings %>% 
+  inner_join(drivers %>% select(driver.name, cons.name))%>% 
+  filter(!driver.name %in% c("Pietro Fittipaldi", "Jack Aitken")) %>% 
+  mutate(cars = paste0("www/cars/",cons.name, ".png")) %>% 
+  ggplot()+
+  
+  geom_hline(aes(yintercept = 0),color = "white")+
+  geom_hline(aes(yintercept = 150),color = "white")+
+  geom_hline(aes(yintercept = 300),color = "white")+
+  
+  geom_image(aes(x = reorder(driver.name, points), y = points, image = cars, group = position),size = 0.2)+
+  geom_text(aes(x = reorder(driver.name, points), y = -50, label = driver.name, group = position), 
+            hjust = 1.15 ,color = "white", family = "Formula1 Display-Regular")+
+  
+  
+  
+  coord_flip()+
+  theme(
+    axis.ticks = element_blank(),
+    axis.text.x = element_text(color = "white", family = "Formula1 Display-Regular"),
+    axis.text.y = element_blank(),
+    plot.background = element_rect(fill = "#535152", color = "#535152"),
+    panel.background = element_rect(fill = "#535152", color = "#535152"),
+    # panel.grid.major.y = element_blank(),
+    # panel.grid.minor.y = element_blank(),
+    # panel.grid.minor.x = element_blank(),
+    # panel.grid.major.x = element_blank(),
+    #panel.grid = element_line(color = "gray")
+    panel.grid = element_blank()
+  )+
+  labs(x = NULL, y = NULL)+
+  facet_wrap(~round)+
+  facet_null() + 
+  #scale_y_continuous(position = "bottom",label = c("", "0", "100", "200", "300", "400"))+
+  ylim(-300,450)
+
++
+  transition_time(round)
+
+
+library(gganimate)
+library(plotly)
 
 
 
-ggplot()+
-  geom_polygon(world_map, mapping = aes(long, lat, group = group), color = "white", show.legend = FALSE)+
-  geom_point(circuits, mapping = aes(lng, lat), color = "red")+
-  scale_fill_viridis_c(option = "C")+
-  theme_void()
 
-# numofplayers <- world_map %>% 
-#   mutate(region = as.character(region)) %>% 
-#   left_join((rv$df %>% mutate(Nationality = as.character(Nationality),
-#                               Nationality = if_else(Nationality %in% "England", "UK", Nationality)) %>%
-#                filter(League == rvLeague$League) %>%
-#                count(Nationality, name = "Number of Player") %>%
-#                rename(region = Nationality) %>%
-#                mutate(region = as.character(region))), by = "region")
 
-ggplotly(
-  ggplot(numofplayers, aes(long, lat, group = group))+
-    geom_polygon(aes(fill = `Number of Player` ), color = "white", show.legend = FALSE)+
-    scale_fill_viridis_c(option = "C")+
-    theme_void()+
-    labs(fill = "Number of Players",
-         title = "Nationality of The Players in The League"))
+
+
+
+
+
+tyres %>% 
+  separate(Tyres, c("Tyres", "Situation"), sep = " ") %>% 
+  group_by(Tyres) %>% 
+  count() %>% 
+  ggplot(aes(reorder(Tyres, n), n, image = paste0("www/tyres/", Tyres, ".png")))+
+  geom_image(size = 0.1)+
+  coord_flip()
