@@ -5,6 +5,11 @@
     color: red;
 }
 
+@font-face {
+  font-family: 'formula1';
+  src: URL('www/fonts/Formula1-Regular.ttf') format('truetype');
+}
+
 .f1--m {
     font-family: F1;
     font-size: 20px;
@@ -25,5 +30,26 @@
 }
 
 
-/* This is a single-line comment */
+/* Dışarı Taşma Problemi için */
 
+
+
+
+.btn-social-icon {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    background-color: white;
+    color: #3c8dbc;
+}
+
+
+.sidebar .component {
+  max-height: calc(100vh - var(--offset) * 2);
+}
