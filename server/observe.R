@@ -1,3 +1,33 @@
+#  Teams ------------------------------------------------------------------
+
+# Input Teams
+observe({
+  
+  updateSelectInput(session, "teams", choices = sort(unique(team$Team)), selected = "Mercedes" )
+  
+})
+
+
+#  Drivers ----------------------------------------------------------------
+
+# Input Drivers
+observe({
+  
+  updateSelectInput(session, "drivers", choices = sort(drivers$driver.name), selected = "Romain Grosjean" )
+  
+})
+
+
+
+
+
+
+
+# Circuit -----------------------------------------------------------------
+
+
+
+
 observe({
   updateSelectInput(session, "driver1", choices = data$Drivers, selected = "Max Verstappen")
 })
@@ -22,15 +52,18 @@ observe({
 })
 
 
+
+
+
 observe({
   
-  updateSelectInput(session, "teams", choices = sort(constructors$cons.name), selected = "Mercedes" )
+  updateSelectInput(session, "circuit", choices = unique(all_highlights$name), selected = "Turkish Grand Prix" )
   
 })
 
 
 observe({
   
-  updateSelectInput(session, "circuit", choices = unique(all_highlights$name), selected = "Turkish Grand Prix" )
+  updateSelectInput(session, "grand_prix", choices = unique(all_highlights$name), selected = "Turkish Grand Prix" )
   
 })
