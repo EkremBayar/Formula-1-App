@@ -1,0 +1,11 @@
+Regular:
+https://www.formula1.com/etc/designs/fom-website/fonts/F1Regular/Formula1-Regular.ttf
+
+Bold:
+https://www.formula1.com/etc/designs/fom-website/fonts/F1Bold/Formula1-Bold.ttf
+
+Wide:
+https://www.formula1.com/etc/designs/fom-website/fonts/F1Wide/Formula1-Wide.ttf
+
+Black:
+https://www.formula1.com/etc/designs/fom-website/fonts/F1Black/Formula1-Black.ttf
