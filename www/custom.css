@@ -1,0 +1,111 @@
+/* Dışarı Taşma Problemi için */
+.content {
+    overflow-y: auto;
+}
+
+
+/* Social Button # btn-social-icon eğer tek bir renk olmasını istersen*/
+
+/* .btn-social-icon {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    background-color: white;
+    color: #3c8dbc;
+}*/
+
+a.btn.btn-social-icon.btn-kaggle {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    background-color: white;
+    color: #3c8dbc;
+}
+
+
+
+/* Shiny Hata ve Uyarılarını Kapama */
+input[type='search']:disabled {visibility:hidden}
+
+.shiny-output-error { visibility: hidden; }
+.shiny-output-error:before { visibility: hidden; }
+
+
+
+/* Renklendirmeler  #e10600: Kırmızı*/
+/* Sidebar, Footer, Body, Header, Hover renk değişimleri*/
+.skin-green .sidebar-menu>li.active>a {border-left-color: #e10600;}
+.skin-green .main-header .navbar {
+  background-color: #e10600;
+}
+.skin-green .main-header .logo {
+  background-color: #e10600;
+  color: #fff;
+  border-bottom: 0 solid transparent;
+}
+.skin-green .main-header .logo:hover {
+  background-color: #e10600;
+}
+.skin-green .main-header .navbar .sidebar-toggle:hover {
+  background-color: #e10600;
+}
+.main-footer {
+  background: #e10600;
+  padding: 15px;
+  color: #e10600;
+  border-top: 1px solid #e10600;
+}
+.content-wrapper, .right-side {background-color: #535152;}
+
+
+/* Fonts */
+
+@font-face {
+  font-family: "F1Regular";
+  src: url("/fonts/Formula1-Regular.ttf")
+}
+
+@font-face {
+  font-family: "F1Bold";
+  src: url("/fonts/Formula1-Bold.ttf")
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'F1Regular', bold;
+  font-weight:normal;
+  font-style:normal;
+  font-weight: 500;
+  line-height: 1.1;
+  color: black;
+}
+
+body {
+  margin:0;
+  font-family: 'F1Regular', bold;
+  font-weight:normal;
+  font-style:normal;
+  font-weight: 500;
+  line-height: 1.1;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
