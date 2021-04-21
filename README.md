@@ -12,3 +12,7 @@ It designed by using R Shiny. Dashboard includes such as anaylsis and visualizat
 
 ### Developer Page
 ![](screenshots/ss3.png)
+
+
+![](driver_standings.gif)
+![](constructor_standings.gif)
